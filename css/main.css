@@ -1,0 +1,42 @@
+body {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.tictactoe {
+  height: 80vh;
+  width: 70vw;
+  margin: 5rem auto;
+  background-size: cover;
+  align-self: center;
+  overflow-y: hidden;
+  text-align: center;
+  position: relative;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  box-shadow: 1px 2px 60px rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+}
+
+.tictactoe div {
+  text-align: center;
+  position: relative;
+  width: 140px;
+  height: 140px;
+  align-content: center;
+  text-align: center;
+  border: 1px solid;
+  display: inline-block;
+  zoom: 1;
+  margin: 4px;
+  outline: none;
+  background-position: center center;
+  background-size: 100% 100%;
+  opacity: 0.5;
+}
+
+.X {
+  background: url("../img/x-image.png");
+}
+
+.O {
+  background: url("../img/o-image.png");
+}

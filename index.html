@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/index.css">
+
+    <script src="/js/index.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+
+    <h1>Select your character</h1>
+    <p>Let's play to win.</p>
+
+    <div class="main">
+        <div class="column">
+            <div class="x">
+                <div class="container">
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <!-- <a href="#o_name" rel="modal:open"> -->
+            <div class="o">
+                <div class="container">
+                </div>
+            </div>
+        </div>
+
+        <button class="button" id="submit">Lets Play</button>
+
+
+        <div id="x_name" class="modal">
+            <h1>Enter X player's name.</h1>
+            <form>
+                <label for="fname">Name</label>
+                <input type="text" id="xname" name="xname">
+            </form>
+            <button class="button" id="x_bt">Submit</button>
+
+        </div>
+        <div id="o_name" class="modal">
+            <h1>Enter O player's name.</h1>
+            <form>
+                <label for="fname">Name</label>
+                <input type="text" id="oname" name="oname">
+            </form>
+            <button class="button" id="o_bt">Submit</button>
+        </div>
+
+        <div id="alert" class="modal">
+            <h1 id ="alert_txt">
+            </h1>
+        </div>
+
+        <!-- Link to open the modal -->
+        <!-- <p><a href="#x_name" rel="modal:open">Open Modal</a></p> -->
+    </div>
+
+</body>
+
+</html>

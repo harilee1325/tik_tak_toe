@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    display: block;
+    font-size: 3em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+  
+  p {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: lighter;
+  }
+  
+  .x {
+    transition: 1s;
+    margin: 5rem auto;
+    text-align: center;
+    width: 300px;
+    float: left;
+    align-self: center;
+    margin-right: 20px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 25px;
+    background: url("/img/x-image.png");
+    background-size: cover;
+    position: relative;
+    box-shadow: 1px 2px 60px 0 rgba(5, 35, 117, 0.4);
+  }
+  
+  .o {
+    transition: 1s;
+    margin: 5rem auto;
+    text-align: center;
+    width: 300px;
+    float: left;
+    background: url("/img/o-image.png");
+    background-size: cover;
+    align-self: center;
+    margin-right: 20px;
+    height: 300px;
+    border-radius: 25px;
+    object-fit: cover;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 1px 2px 60px 0 rgba(5, 35, 117, 0.4);
+  }
+
+  
+  .x:hover {
+    box-shadow: 1px 2px 60px rgba(253, 3, 3, 0.4);
+  }
+  .o:hover {
+    box-shadow: 1px 2px 60px rgba(253, 3, 3, 0.4);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    align-content: space-between;
+  }
+  .main {
+    height: 80vh;
+    margin: auto;
+    width: 40%;
+   
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .button {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-width: 0ch;
+    border-radius: 12px;
+  }
